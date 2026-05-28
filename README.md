@@ -1,2 +1,21 @@
-# rl-sensor-placement-wdn
-Source code, 10-seed deterministic validation harness, and environment configurations for optimal sensor placement in water distribution networks using Reinforcement Learning.
+# Multi-Seed Deep Reinforcement Learning for Sensor Placement Optimization in Water Distribution Networks
+
+This repository contains the official algorithmic framework, benchmark dataset infrastructure, and execution pipelines for addressing the sensor placement optimization problem across complex Water Distribution Networks (WDNs). 
+
+The project evaluates and validates the convergence, performance, and stability of a **Deep Q-Network (DQN)** agent compared against a standardized **Genetic Algorithm (GA)** across multi-seed computational horizons.
+
+---
+
+## 📂 Repository Structure
+
+The workspace is organized using a decoupled, modular layout to ensure a clean, reproducible structural audit trail:
+
+```text
+rl-sensor-placement-wdn/
+├── networks/               # Standardized Hydraulic Benchmark Dataset Layers
+│   ├── CTOWN.inp           # Medium-sized complex looped network benchmark
+│   ├── Hanoi.inp           # High-looping density verification network
+│   └── Net3.inp            # Standard baseline validation benchmark
+└── src/                    # Optimization Engines & Algorithmic Backbone
+    ├── models.py           # Core DQN PyTorch architecture and GA operators
+    └── main.py             # Master evaluation loop and comparative plotting driver
