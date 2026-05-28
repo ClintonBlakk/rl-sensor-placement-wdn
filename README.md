@@ -1,5 +1,4 @@
-# Multi-Seed Deep Reinforcement Learning for Sensor Placement Optimization in Water Distribution Networks
-
+# Adaptive Sensor Placement in Water Distribution Networks Using Deep Reinforcement Learning: A Comparative Study with Genetic Algorithms
 This repository contains the official algorithmic framework, benchmark dataset infrastructure, and execution pipelines for addressing the sensor placement optimization problem across complex Water Distribution Networks (WDNs). 
 
 The project evaluates and validates the convergence, performance, and stability of a **Deep Q-Network (DQN)** agent compared against a standardized **Genetic Algorithm (GA)** across multi-seed computational horizons.
